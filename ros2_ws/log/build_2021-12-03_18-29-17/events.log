@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (Battery_monitoring) JobQueued: {'identifier': 'Battery_monitoring', 'dependencies': OrderedDict()}
+[0.000731] (Battery_monitoring) JobStarted: {'identifier': 'Battery_monitoring'}
+[0.013836] (Battery_monitoring) JobProgress: {'identifier': 'Battery_monitoring', 'progress': 'cmake'}
+[0.014514] (Battery_monitoring) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/Battery_monitoring', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/Battery_monitoring'], 'cwd': '/home/user/ros2_ws/build/Battery_monitoring', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://3_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/Battery_monitoring'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/ros_battery_monitoring/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', '2265f346-ab81-42b2-8af2-48f64d6ba325'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25724'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/Battery_monitoring'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.033186] (Battery_monitoring) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.059920] (Battery_monitoring) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.060173] (Battery_monitoring) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099363] (-) TimerEvent: {}
+[0.199745] (-) TimerEvent: {}
+[0.300117] (-) TimerEvent: {}
+[0.332546] (Battery_monitoring) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.335245] (Battery_monitoring) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.339459] (Battery_monitoring) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400297] (-) TimerEvent: {}
+[0.500688] (-) TimerEvent: {}
+[0.557672] (Battery_monitoring) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600850] (-) TimerEvent: {}
+[0.610697] (Battery_monitoring) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.701010] (-) TimerEvent: {}
+[0.773273] (Battery_monitoring) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.773665] (Battery_monitoring) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.773885] (Battery_monitoring) StderrLine: {'line': b'  Battery_monitoring --arguments-file\n'}
+[0.774073] (Battery_monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/Battery_monitoring/rosidl_adapter__arguments__Battery_monitoring.json\n'}
+[0.774257] (Battery_monitoring) StderrLine: {'line': b'  --output-dir\n'}
+[0.774437] (Battery_monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/Battery_monitoring/rosidl_adapter/Battery_monitoring\n'}
+[0.774618] (Battery_monitoring) StderrLine: {'line': b'  --output-file\n'}
+[0.774797] (Battery_monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/Battery_monitoring/rosidl_adapter/Battery_monitoring.idls)\n'}
+[0.774984] (Battery_monitoring) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.775163] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.775342] (Battery_monitoring) StderrLine: {'line': b"  Error processing 'int64 BatteryNum' of\n"}
+[0.775522] (Battery_monitoring) StderrLine: {'line': b"  'Battery_monitoring/BatteryMonitorService_Request': ''BatteryNum' is an\n"}
+[0.775714] (Battery_monitoring) StderrLine: {'line': b'  invalid field name.  It should have the pattern\n'}
+[0.775957] (Battery_monitoring) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[0.776152] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.776348] (Battery_monitoring) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.776558] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.776753] (Battery_monitoring) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.776939] (Battery_monitoring) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.777118] (Battery_monitoring) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.777285] (Battery_monitoring) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.777450] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.777649] (Battery_monitoring) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.777825] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.777996] (Battery_monitoring) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.778163] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.778337] (Battery_monitoring) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.778503] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.778669] (Battery_monitoring) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.778834] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[0.779001] (Battery_monitoring) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.779170] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[0.779342] (Battery_monitoring) StderrLine: {'line': b'      fields.append(Field(\n'}
+[0.779515] (Battery_monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[0.779691] (Battery_monitoring) StderrLine: {'line': b'      raise NameError(\n'}
+[0.779864] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.780036] (Battery_monitoring) StderrLine: {'line': b"  NameError: 'BatteryNum' is an invalid field name.  It should have the\n"}
+[0.780209] (Battery_monitoring) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.780383] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.780584] (Battery_monitoring) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.780784] (Battery_monitoring) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.780987] (Battery_monitoring) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[0.781187] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.781389] (Battery_monitoring) StderrLine: {'line': b'\n'}
+[0.781599] (Battery_monitoring) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.781838] (Battery_monitoring) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/Battery_monitoring/CMakeFiles/CMakeOutput.log".\n'}
+[0.784159] (Battery_monitoring) CommandEnded: {'returncode': 1}
+[0.801171] (-) TimerEvent: {}
+[0.810692] (Battery_monitoring) JobEnded: {'identifier': 'Battery_monitoring', 'rc': 1}
+[0.821307] (-) EventReactorShutdown: {}

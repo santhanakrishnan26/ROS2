@@ -1,0 +1,28 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:7:1:[m[K [01;31m[Kerror: [m[K'[01m[Kint64[m[K' does not name a type; did you mean '[01m[Krintf64[m[K'?
+    7 | [01;31m[Kint64[m[K battery_num = 0;
+      | [01;31m[K^~~~~[m[K
+      | [32m[Krintf64[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:21:27:[m[K [01;31m[Kerror: [m[K'[01m[Kbattery_num[m[K' was not declared in this scope
+   21 |     request->batterynum = [01;31m[Kbattery_num[m[K;
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:2[m[K:
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:40:39:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[Kresult[m[K'
+   40 |                   request->batterynum [01;31m[Kresult[m[K.get()->percentage);
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:37:7:[m[K [01;36m[Knote: [m[Kto match this '[01m[K([m[K'
+   37 |       [01;36m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"),
+      |       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

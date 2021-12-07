@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target client[0m
+[35m[1mScanning dependencies of target server[0m
+[  2%] Built target battery_monitoring__cpp
+[ 11%] Built target battery_monitoring__rosidl_generator_c
+[ 28%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 28%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 31%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[ 60%] Built target battery_monitoring__rosidl_typesupport_c
+[ 68%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 68%] Built target battery_monitoring
+[ 71%] Built target battery_monitoring__py
+[ 77%] Built target battery_monitoring__python
+[ 94%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[ 97%] [32m[1mLinking CXX executable server[0m
+[ 97%] Built target server

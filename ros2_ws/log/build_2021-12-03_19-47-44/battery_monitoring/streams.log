@@ -1,0 +1,128 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.070s] [35m[1mScanning dependencies of target client[0m
+[0.081s] [  2%] Built target battery_monitoring__cpp
+[0.087s] [ 11%] Built target battery_monitoring__rosidl_generator_c
+[0.123s] [ 17%] Built target server
+[0.208s] [ 25%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.209s] [ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.209s] [ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.209s] [ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.215s] [ 60%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.215s] [ 62%] Built target battery_monitoring__rosidl_typesupport_c
+[0.244s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.273s] [ 71%] Built target battery_monitoring
+[0.319s] [ 74%] Built target battery_monitoring__py
+[0.354s] [ 80%] Built target battery_monitoring__python
+[0.414s] [ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[0.415s] [ 91%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[0.420s] [ 97%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[2.839s] [100%] [32m[1mLinking CXX executable client[0m
+[2.980s] [100%] Built target client
+[2.993s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[3.114s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/battery_monitoring
+[3.124s] -- Install configuration: ""
+[3.124s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/rosidl_interfaces/battery_monitoring
+[3.125s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.125s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.125s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.125s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.h
+[3.125s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__functions.h
+[3.126s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__functions.c
+[3.126s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.h
+[3.126s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.h
+[3.126s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg
+[3.126s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_generator_c__visibility_control.h
+[3.127s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/library_path.sh
+[3.127s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/library_path.dsv
+[3.127s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_generator_c.so
+[3.127s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.127s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.128s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.128s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_fastrtps_c.h
+[3.128s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg
+[3.128s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.128s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_fastrtps_c.so
+[3.129s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.129s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.129s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.129s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/dds_fastrtps
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_fastrtps_cpp.so
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.130s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.c
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_introspection_c.h
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.131s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_introspection_c.so
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_c.so
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__builder.hpp
+[3.132s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__traits.hpp
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.hpp
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_introspection_cpp.hpp
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.cpp
+[3.133s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_introspection_cpp.so
+[3.134s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_cpp.so
+[3.134s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/pythonpath.sh
+[3.134s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/pythonpath.dsv
+[3.134s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/__init__.py
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/_robot_battery_status.py
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/__init__.py
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/_robot_battery_status_s.c
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.172s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.173s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.174s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__python.so
+[3.174s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus.idl
+[3.174s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus.srv
+[3.174s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus_Request.msg
+[3.174s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus_Response.msg
+[3.174s] -- Installing: /home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/server
+[3.175s] -- Set runtime path of "/home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/server" to ""
+[3.176s] -- Installing: /home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/client
+[3.177s] -- Set runtime path of "/home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/client" to ""
+[3.177s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/package_run_dependencies/battery_monitoring
+[3.177s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/parent_prefix_path/battery_monitoring
+[3.177s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/ament_prefix_path.sh
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/ament_prefix_path.dsv
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/path.sh
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/path.dsv
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.bash
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.sh
+[3.178s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.zsh
+[3.179s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.dsv
+[3.179s] -- Installing: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/package.dsv
+[3.179s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/packages/battery_monitoring
+[3.179s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cExport.cmake
+[3.179s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cExport-noconfig.cmake
+[3.179s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cExport.cmake
+[3.180s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.180s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cExport.cmake
+[3.180s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cExport-noconfig.cmake
+[3.180s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cppExport.cmake
+[3.180s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cppExport.cmake
+[3.181s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.181s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cppExport.cmake
+[3.181s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cppExport-noconfig.cmake
+[3.181s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake-extras.cmake
+[3.181s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_libraries-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_targets-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.182s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoringConfig.cmake
+[3.183s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoringConfig-version.cmake
+[3.185s] -- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/package.xml
+[3.185s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/battery_monitoring

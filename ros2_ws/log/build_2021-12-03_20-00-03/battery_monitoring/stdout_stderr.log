@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target client[0m
+[  2%] Built target battery_monitoring__cpp
+[ 11%] Built target battery_monitoring__rosidl_generator_c
+[ 17%] Built target server
+[ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 54%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 71%] Built target battery_monitoring
+[ 74%] Built target battery_monitoring__py
+[ 80%] Built target battery_monitoring__python
+[ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[ 91%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:45:11:[m[K [01;31m[Kerror: [m[K'[01m[Ksleep[m[K' is not a member of '[01m[Krclcpp[m[K'
+   45 |   rclcpp::[01;31m[Ksleep[m[K(10);
+      |           [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

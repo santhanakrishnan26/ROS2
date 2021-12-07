@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000628] (-) JobUnselected: {'identifier': 'test_package'}
+[0.000705] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001097] (battery_monitoring) JobQueued: {'identifier': 'battery_monitoring', 'dependencies': OrderedDict()}
+[0.001753] (battery_monitoring) JobStarted: {'identifier': 'battery_monitoring'}
+[0.041647] (battery_monitoring) JobProgress: {'identifier': 'battery_monitoring', 'progress': 'cmake'}
+[0.042869] (battery_monitoring) JobProgress: {'identifier': 'battery_monitoring', 'progress': 'build'}
+[0.044133] (battery_monitoring) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/battery_monitoring', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/battery_monitoring', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/battery_monitoring'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/ros_battery_monitoring/lib/python3.8/site-packages:/home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tutorial_interfaces/lib:/home/user/ros2_ws/install/ros_battery_monitoring/lib:/home/user/ros2_ws/install/battery_monitoring/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', 'e1de8bd6-72a4-4ddd-a35a-dcf6d8690fe4'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25030'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099243] (-) TimerEvent: {}
+[0.199776] (-) TimerEvent: {}
+[0.300329] (-) TimerEvent: {}
+[0.400874] (-) TimerEvent: {}
+[0.501404] (-) TimerEvent: {}
+[0.601954] (-) TimerEvent: {}
+[0.702450] (-) TimerEvent: {}
+[0.802942] (-) TimerEvent: {}
+[0.903431] (-) TimerEvent: {}
+[1.004015] (-) TimerEvent: {}
+[1.104439] (-) TimerEvent: {}
+[1.204990] (-) TimerEvent: {}
+[1.305432] (-) TimerEvent: {}
+[1.314023] (battery_monitoring) StdoutLine: {'line': b'[  5%] Built target client\n'}
+[1.356063] (battery_monitoring) StdoutLine: {'line': b'[ 14%] Built target battery_monitoring__rosidl_generator_c\n'}
+[1.388774] (battery_monitoring) StdoutLine: {'line': b'[ 17%] Built target battery_monitoring__cpp\n'}
+[1.405619] (-) TimerEvent: {}
+[1.444453] (battery_monitoring) StdoutLine: {'line': b'[ 25%] Built target battery_monitoring__rosidl_typesupport_c\n'}
+[1.487665] (battery_monitoring) StdoutLine: {'line': b'[ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp\n'}
+[1.505994] (-) TimerEvent: {}
+[1.606511] (-) TimerEvent: {}
+[1.706996] (-) TimerEvent: {}
+[1.732632] (battery_monitoring) StdoutLine: {'line': b'[ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp\n'}
+[1.771452] (battery_monitoring) StdoutLine: {'line': b'[ 51%] Built target battery_monitoring__rosidl_typesupport_cpp\n'}
+[1.807174] (-) TimerEvent: {}
+[1.833015] (battery_monitoring) StdoutLine: {'line': b'[ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c\n'}
+[1.879741] (battery_monitoring) StdoutLine: {'line': b'[ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c\n'}
+[1.905900] (battery_monitoring) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[1.907367] (-) TimerEvent: {}
+[1.973040] (battery_monitoring) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o\x1b[0m\n'}
+[2.007757] (-) TimerEvent: {}
+[2.108251] (-) TimerEvent: {}
+[2.208894] (-) TimerEvent: {}
+[2.309428] (-) TimerEvent: {}
+[2.409954] (-) TimerEvent: {}
+[2.510551] (-) TimerEvent: {}
+[2.611038] (-) TimerEvent: {}
+[2.711660] (-) TimerEvent: {}
+[2.812161] (-) TimerEvent: {}
+[2.912848] (-) TimerEvent: {}
+[3.013335] (-) TimerEvent: {}
+[3.113893] (-) TimerEvent: {}
+[3.214443] (-) TimerEvent: {}
+[3.314955] (-) TimerEvent: {}
+[3.415484] (-) TimerEvent: {}
+[3.516816] (-) TimerEvent: {}
+[3.617330] (-) TimerEvent: {}
+[3.717805] (-) TimerEvent: {}
+[3.818366] (-) TimerEvent: {}
+[3.918872] (-) TimerEvent: {}
+[4.019466] (-) TimerEvent: {}
+[4.120060] (-) TimerEvent: {}
+[4.220617] (-) TimerEvent: {}
+[4.321173] (-) TimerEvent: {}
+[4.421724] (-) TimerEvent: {}
+[4.522144] (-) TimerEvent: {}
+[4.622639] (-) TimerEvent: {}
+[4.723217] (-) TimerEvent: {}
+[4.823713] (-) TimerEvent: {}
+[4.924222] (-) TimerEvent: {}
+[5.024761] (-) TimerEvent: {}
+[5.129486] (-) TimerEvent: {}
+[5.237483] (-) TimerEvent: {}
+[5.341479] (-) TimerEvent: {}
+[5.442280] (-) TimerEvent: {}
+[5.542799] (-) TimerEvent: {}
+[5.643307] (-) TimerEvent: {}
+[5.743784] (-) TimerEvent: {}
+[5.844325] (-) TimerEvent: {}
+[5.944810] (-) TimerEvent: {}
+[6.045302] (-) TimerEvent: {}
+[6.145840] (-) TimerEvent: {}
+[6.246321] (-) TimerEvent: {}
+[6.346765] (-) TimerEvent: {}
+[6.447224] (-) TimerEvent: {}
+[6.547709] (-) TimerEvent: {}
+[6.648216] (-) TimerEvent: {}
+[6.748686] (-) TimerEvent: {}
+[6.849207] (-) TimerEvent: {}
+[6.949755] (-) TimerEvent: {}
+[7.050299] (-) TimerEvent: {}
+[7.150717] (-) TimerEvent: {}
+[7.251193] (-) TimerEvent: {}
+[7.351659] (-) TimerEvent: {}
+[7.452099] (-) TimerEvent: {}
+[7.552554] (-) TimerEvent: {}
+[7.652988] (-) TimerEvent: {}
+[7.753518] (-) TimerEvent: {}
+[7.853966] (-) TimerEvent: {}
+[7.954478] (-) TimerEvent: {}
+[8.054972] (-) TimerEvent: {}
+[8.155402] (-) TimerEvent: {}
+[8.255915] (-) TimerEvent: {}
+[8.356399] (-) TimerEvent: {}
+[8.456845] (-) TimerEvent: {}
+[8.557283] (-) TimerEvent: {}
+[8.657866] (-) TimerEvent: {}
+[8.758326] (-) TimerEvent: {}
+[8.858819] (-) TimerEvent: {}
+[8.959238] (-) TimerEvent: {}
+[9.059691] (-) TimerEvent: {}
+[9.160181] (-) TimerEvent: {}
+[9.260618] (-) TimerEvent: {}
+[9.361109] (-) TimerEvent: {}
+[9.461654] (-) TimerEvent: {}
+[9.562036] (-) TimerEvent: {}
+[9.662444] (-) TimerEvent: {}
+[9.762895] (-) TimerEvent: {}
+[9.863296] (-) TimerEvent: {}
+[9.963787] (-) TimerEvent: {}
+[10.064273] (-) TimerEvent: {}
+[10.193514] (-) TimerEvent: {}
+[10.294820] (-) TimerEvent: {}
+[10.397502] (-) TimerEvent: {}
+[10.498027] (-) TimerEvent: {}
+[10.598549] (-) TimerEvent: {}
+[10.699065] (-) TimerEvent: {}
+[10.799546] (-) TimerEvent: {}
+[10.900061] (-) TimerEvent: {}
+[11.000524] (-) TimerEvent: {}
+[11.101077] (-) TimerEvent: {}
+[11.201801] (-) TimerEvent: {}
+[11.302287] (-) TimerEvent: {}
+[11.402780] (-) TimerEvent: {}
+[11.503355] (-) TimerEvent: {}
+[11.604007] (-) TimerEvent: {}
+[11.704579] (-) TimerEvent: {}
+[11.804989] (-) TimerEvent: {}
+[11.905689] (-) TimerEvent: {}
+[12.006234] (-) TimerEvent: {}
+[12.106816] (-) TimerEvent: {}
+[12.207438] (-) TimerEvent: {}
+[12.307854] (-) TimerEvent: {}
+[12.408429] (-) TimerEvent: {}
+[12.509092] (-) TimerEvent: {}
+[12.609644] (-) TimerEvent: {}
+[12.710219] (-) TimerEvent: {}
+[12.810898] (-) TimerEvent: {}
+[12.911332] (-) TimerEvent: {}
+[13.011844] (-) TimerEvent: {}
+[13.078518] (battery_monitoring) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K':\n"}
+[13.078950] (battery_monitoring) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before '\x1b[01m\x1b[K)\x1b[m\x1b[K' token\n"}
+[13.079198] (battery_monitoring) StderrLine: {'line': b'   30 |               \x1b[01;31m\x1b[K)\x1b[m\x1b[K; // CHANGE\n'}
+[13.079420] (battery_monitoring) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.113537] (-) TimerEvent: {}
+[13.214403] (-) TimerEvent: {}
+[13.314928] (-) TimerEvent: {}
+[13.415474] (-) TimerEvent: {}
+[13.515994] (-) TimerEvent: {}
+[13.616528] (-) TimerEvent: {}
+[13.699347] (battery_monitoring) StderrLine: {'line': b'make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1\n'}
+[13.700050] (battery_monitoring) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2\n'}
+[13.700232] (battery_monitoring) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[13.705440] (battery_monitoring) CommandEnded: {'returncode': 2}
+[13.716613] (-) TimerEvent: {}
+[13.817331] (-) TimerEvent: {}
+[13.918203] (-) TimerEvent: {}
+[13.934922] (battery_monitoring) JobEnded: {'identifier': 'battery_monitoring', 'rc': 2}
+[13.945473] (-) EventReactorShutdown: {}

@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000773] (-) JobUnselected: {'identifier': 'test_package'}
+[0.000887] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001624] (battery_monitoring) JobQueued: {'identifier': 'battery_monitoring', 'dependencies': OrderedDict()}
+[0.003610] (battery_monitoring) JobStarted: {'identifier': 'battery_monitoring'}
+[0.027485] (battery_monitoring) JobProgress: {'identifier': 'battery_monitoring', 'progress': 'cmake'}
+[0.028964] (battery_monitoring) JobProgress: {'identifier': 'battery_monitoring', 'progress': 'build'}
+[0.035036] (battery_monitoring) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/battery_monitoring', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/battery_monitoring', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/battery_monitoring'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/ros_battery_monitoring/lib/python3.8/site-packages:/home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tutorial_interfaces/lib:/home/user/ros2_ws/install/ros_battery_monitoring/lib:/home/user/ros2_ws/install/battery_monitoring/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', 'e1de8bd6-72a4-4ddd-a35a-dcf6d8690fe4'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25030'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100989] (-) TimerEvent: {}
+[0.201503] (-) TimerEvent: {}
+[0.237435] (battery_monitoring) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[0.301597] (-) TimerEvent: {}
+[0.319565] (battery_monitoring) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[0.401778] (-) TimerEvent: {}
+[0.503027] (-) TimerEvent: {}
+[0.609444] (-) TimerEvent: {}
+[0.709931] (-) TimerEvent: {}
+[0.810439] (-) TimerEvent: {}
+[0.910921] (-) TimerEvent: {}
+[1.011593] (-) TimerEvent: {}
+[1.113000] (-) TimerEvent: {}
+[1.213455] (-) TimerEvent: {}
+[1.313933] (-) TimerEvent: {}
+[1.414421] (-) TimerEvent: {}
+[1.514895] (-) TimerEvent: {}
+[1.615371] (-) TimerEvent: {}
+[1.715862] (-) TimerEvent: {}
+[1.816338] (-) TimerEvent: {}
+[1.916834] (-) TimerEvent: {}
+[2.017309] (-) TimerEvent: {}
+[2.118323] (-) TimerEvent: {}
+[2.218799] (-) TimerEvent: {}
+[2.319296] (-) TimerEvent: {}
+[2.419759] (-) TimerEvent: {}
+[2.520224] (-) TimerEvent: {}
+[2.620728] (-) TimerEvent: {}
+[2.721202] (-) TimerEvent: {}
+[2.821686] (-) TimerEvent: {}
+[2.922185] (-) TimerEvent: {}
+[3.022664] (-) TimerEvent: {}
+[3.123158] (-) TimerEvent: {}
+[3.223697] (-) TimerEvent: {}
+[3.324246] (-) TimerEvent: {}
+[3.424740] (-) TimerEvent: {}
+[3.525159] (-) TimerEvent: {}
+[3.625726] (-) TimerEvent: {}
+[3.726354] (-) TimerEvent: {}
+[3.830301] (-) TimerEvent: {}
+[3.938285] (-) TimerEvent: {}
+[4.038999] (-) TimerEvent: {}
+[4.139671] (-) TimerEvent: {}
+[4.240660] (-) TimerEvent: {}
+[4.341238] (-) TimerEvent: {}
+[4.441800] (-) TimerEvent: {}
+[4.535086] (battery_monitoring) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[4.545420] (-) TimerEvent: {}
+[4.645927] (-) TimerEvent: {}
+[4.749827] (-) TimerEvent: {}
+[4.861457] (-) TimerEvent: {}
+[4.875944] (battery_monitoring) StdoutLine: {'line': b'[  5%] Built target client\n'}
+[4.945302] (battery_monitoring) StdoutLine: {'line': b'[ 14%] Built target battery_monitoring__rosidl_generator_c\n'}
+[4.961996] (-) TimerEvent: {}
+[5.010738] (battery_monitoring) StdoutLine: {'line': b'[ 17%] Built target battery_monitoring__cpp\n'}
+[5.062180] (-) TimerEvent: {}
+[5.068152] (battery_monitoring) StdoutLine: {'line': b'[ 25%] Built target battery_monitoring__rosidl_typesupport_c\n'}
+[5.121981] (battery_monitoring) StdoutLine: {'line': b'[ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp\n'}
+[5.165438] (-) TimerEvent: {}
+[5.192894] (battery_monitoring) StdoutLine: {'line': b'[ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp\n'}
+[5.242998] (battery_monitoring) StdoutLine: {'line': b'[ 51%] Built target battery_monitoring__rosidl_typesupport_cpp\n'}
+[5.265974] (-) TimerEvent: {}
+[5.312538] (battery_monitoring) StdoutLine: {'line': b'[ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c\n'}
+[5.367541] (-) TimerEvent: {}
+[5.369067] (battery_monitoring) StdoutLine: {'line': b'[ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c\n'}
+[5.442526] (battery_monitoring) StdoutLine: {'line': b'[ 74%] Built target server\n'}
+[5.467727] (-) TimerEvent: {}
+[5.490215] (battery_monitoring) StdoutLine: {'line': b'[ 74%] Built target battery_monitoring\n'}
+[5.535469] (battery_monitoring) StdoutLine: {'line': b'[ 77%] Built target battery_monitoring__py\n'}
+[5.569838] (-) TimerEvent: {}
+[5.617517] (battery_monitoring) StdoutLine: {'line': b'[ 82%] Built target battery_monitoring__python\n'}
+[5.670027] (-) TimerEvent: {}
+[5.694661] (battery_monitoring) StdoutLine: {'line': b'[ 88%] Built target battery_monitoring__rosidl_typesupport_c__pyext\n'}
+[5.761168] (battery_monitoring) StdoutLine: {'line': b'[ 94%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.770341] (-) TimerEvent: {}
+[5.825565] (battery_monitoring) StdoutLine: {'line': b'[100%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext\n'}
+[5.848806] (battery_monitoring) CommandEnded: {'returncode': 0}
+[5.871159] (-) TimerEvent: {}
+[5.972157] (-) TimerEvent: {}
+[6.077422] (-) TimerEvent: {}
+[6.143571] (battery_monitoring) JobProgress: {'identifier': 'battery_monitoring', 'progress': 'install'}
+[6.171852] (battery_monitoring) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/battery_monitoring'], 'cwd': '/home/user/ros2_ws/build/battery_monitoring', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/battery_monitoring'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/tutorial_interfaces:/home/user/ros2_ws/install/test_package:/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/user/ros2_ws/install/battery_monitoring:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/ros_battery_monitoring/lib/python3.8/site-packages:/home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tutorial_interfaces/lib:/home/user/ros2_ws/install/ros_battery_monitoring/lib:/home/user/ros2_ws/install/battery_monitoring/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', 'e1de8bd6-72a4-4ddd-a35a-dcf6d8690fe4'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25030'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.177586] (-) TimerEvent: {}
+[6.193080] (battery_monitoring) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.193477] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/rosidl_interfaces/battery_monitoring\n'}
+[6.193835] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.194717] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.195602] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.196191] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.h\n'}
+[6.196619] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__functions.h\n'}
+[6.197029] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__functions.c\n'}
+[6.197558] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.h\n'}
+[6.198000] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.h\n'}
+[6.200110] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg\n'}
+[6.200642] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.201209] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/library_path.sh\n'}
+[6.201650] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/library_path.dsv\n'}
+[6.202181] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_generator_c.so\n'}
+[6.202611] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.203210] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.203550] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.203916] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.204366] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg\n'}
+[6.205120] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.205502] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_fastrtps_c.so\n'}
+[6.206216] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.206597] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.207164] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.208217] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.208602] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/dds_fastrtps\n'}
+[6.208890] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg\n'}
+[6.209118] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.209411] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.209645] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.209881] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.210098] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.210336] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.c\n'}
+[6.210571] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_introspection_c.h\n'}
+[6.210779] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg\n'}
+[6.210975] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.211152] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_introspection_c.so\n'}
+[6.211333] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_c.so\n'}
+[6.211486] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.214341] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.215153] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.215374] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__builder.hpp\n'}
+[6.215819] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__traits.hpp\n'}
+[6.216041] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp\n'}
+[6.216320] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.hpp\n'}
+[6.216623] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring\n'}
+[6.217092] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv\n'}
+[6.217329] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail\n'}
+[6.217582] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.217812] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__type_support.cpp\n'}
+[6.218044] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_introspection_cpp.so\n'}
+[6.218264] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__rosidl_typesupport_cpp.so\n'}
+[6.218468] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/pythonpath.sh\n'}
+[6.218683] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/pythonpath.dsv\n'}
+[6.218912] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/__init__.py\n'}
+[6.277755] (-) TimerEvent: {}
+[6.306573] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv\n'}
+[6.306957] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/_robot_battery_status.py\n'}
+[6.307167] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/__init__.py\n'}
+[6.307451] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/srv/_robot_battery_status_s.c\n'}
+[6.307677] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.314983] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.315572] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/python3.8/site-packages/battery_monitoring/battery_monitoring_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.315883] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/libbattery_monitoring__python.so\n'}
+[6.316095] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus.idl\n'}
+[6.316377] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus.srv\n'}
+[6.316655] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus_Request.msg\n'}
+[6.316908] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/srv/RobotBatteryStatus_Response.msg\n'}
+[6.317190] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/server\n'}
+[6.317493] (battery_monitoring) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/client\n'}
+[6.317793] (battery_monitoring) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/battery_monitoring/lib/battery_monitoring/client" to ""\n'}
+[6.318054] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/package_run_dependencies/battery_monitoring\n'}
+[6.318343] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/parent_prefix_path/battery_monitoring\n'}
+[6.318620] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/ament_prefix_path.sh\n'}
+[6.318907] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/ament_prefix_path.dsv\n'}
+[6.319185] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/path.sh\n'}
+[6.319491] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/environment/path.dsv\n'}
+[6.319816] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.bash\n'}
+[6.320177] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.sh\n'}
+[6.320568] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.zsh\n'}
+[6.321230] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/local_setup.dsv\n'}
+[6.321477] (battery_monitoring) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/package.dsv\n'}
+[6.321676] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/ament_index/resource_index/packages/battery_monitoring\n'}
+[6.321902] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cExport.cmake\n'}
+[6.322098] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.322294] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.322486] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.322675] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cExport.cmake\n'}
+[6.322856] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.324515] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_generator_cppExport.cmake\n'}
+[6.324761] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.325059] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.325250] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cppExport.cmake\n'}
+[6.325513] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoring__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.325718] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake-extras.cmake\n'}
+[6.325897] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.326297] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.328451] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.336378] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.336832] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.337157] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.337319] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoringConfig.cmake\n'}
+[6.337638] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/cmake/battery_monitoringConfig-version.cmake\n'}
+[6.337951] (battery_monitoring) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/battery_monitoring/share/battery_monitoring/package.xml\n'}
+[6.338136] (battery_monitoring) CommandEnded: {'returncode': 0}
+[6.378024] (-) TimerEvent: {}
+[6.493123] (-) TimerEvent: {}
+[6.597100] (-) TimerEvent: {}
+[6.688964] (battery_monitoring) JobEnded: {'identifier': 'battery_monitoring', 'rc': 0}
+[6.693942] (-) EventReactorShutdown: {}

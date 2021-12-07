@@ -1,0 +1,19 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:27:3:[m[K [01;31m[Kerror: [m[K'[01m[Knode[m[K' was not declared in this scope
+   27 |   [01;31m[Knode[m[K->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints",
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:27:24:[m[K [01;31m[Kerror: [m[K'[01m[Kexample_interfaces[m[K' has not been declared
+   27 |   node->create_service<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>("add_two_ints",
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:61:[m[K [01;31m[Kerror: [m[K'[01m[Kfcn2[m[K' was not declared in this scope
+   28 |                                                             [01;31m[Kfcn2[m[K);
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:35:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+   35 |       node->create_service<battery_monitoring::srv::RobotBatteryStatus[01;31m[K>[m[K(
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:36:11:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   36 |           [01;35m[K"add_three_ints"[m[K,
+      |           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

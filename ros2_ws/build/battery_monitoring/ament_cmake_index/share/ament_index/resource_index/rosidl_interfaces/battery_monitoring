@@ -1,0 +1,4 @@
+srv/RobotBatteryStatus.idl
+srv/RobotBatteryStatus.srv
+srv/RobotBatteryStatus_Request.msg
+srv/RobotBatteryStatus_Response.msg

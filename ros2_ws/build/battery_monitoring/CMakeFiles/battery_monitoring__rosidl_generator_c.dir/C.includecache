@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/ros2_ws/build/battery_monitoring/rosidl_generator_c/battery_monitoring/srv/detail/robot_battery_status__functions.c
+battery_monitoring/srv/detail/robot_battery_status__functions.h
+/home/user/ros2_ws/build/battery_monitoring/rosidl_generator_c/battery_monitoring/srv/detail/battery_monitoring/srv/detail/robot_battery_status__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/battery_monitoring/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/battery_monitoring/srv/detail/robot_battery_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/battery_monitoring/srv/detail/rosidl_runtime_c/visibility_control.h
+battery_monitoring/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/battery_monitoring/srv/detail/battery_monitoring/msg/rosidl_generator_c__visibility_control.h
+battery_monitoring/srv/detail/robot_battery_status__struct.h
+rosidl_generator_c/battery_monitoring/srv/detail/battery_monitoring/srv/detail/robot_battery_status__struct.h
+
+rosidl_generator_c/battery_monitoring/srv/detail/robot_battery_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

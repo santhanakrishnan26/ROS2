@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:37:23:[m[K [01;31m[Kerror: [m[Kconversion from '[01m[Kstd::_Bind_helper<false, void (&)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K' {aka '[01m[Kstd::_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)>[m[K'} to non-scalar type '[01m[Kstd::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)>[m[K' requested
+   37 |       fcn2 = [01;31m[Kstd::bind(add, std::placeholders::_1, std::placeholders::_2)[m[K;
+      |              [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

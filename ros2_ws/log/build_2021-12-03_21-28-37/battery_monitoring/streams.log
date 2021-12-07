@@ -1,0 +1,43 @@
+[0.021s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.083s] [35m[1mScanning dependencies of target server[0m
+[0.100s] [  8%] Built target battery_monitoring__rosidl_generator_c
+[0.100s] [ 11%] Built target battery_monitoring__cpp
+[0.153s] [ 17%] Built target client
+[0.219s] [ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[0.221s] [ 34%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.222s] [ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.226s] [ 51%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.228s] [ 54%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.228s] [ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.266s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.296s] [ 71%] Built target battery_monitoring
+[0.346s] [ 74%] Built target battery_monitoring__py
+[0.383s] [ 80%] Built target battery_monitoring__python
+[0.443s] [ 91%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[0.443s] [ 91%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[0.445s] [ 97%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[1.866s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.868s]                  from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[1.868s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kvoid add(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)[m[K':
+[1.868s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:14:36:[m[K [01;31m[Kerror: [m[K'[01m[Knum[m[K' was not declared in this scope; did you mean '[01m[Kenum[m[K'?
+[1.869s]    14 |               request->batterynum, [01;31m[Knum[m[K); // CHANGE
+[1.869s]       |                                    [01;31m[K^~~[m[K
+[1.870s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[1.871s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:46:[m[K [01;31m[Kerror: [m[Kcould not convert '[01m[Kboost::placeholders::_1[m[K' from '[01m[Kconst boost::arg<1>[m[K' to '[01m[Kstd::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >[m[K'
+[1.871s]    28 |           "add_three_ints", boost::bind(&add([01;31m[K_1[m[K,_2)); // CHANGE
+[1.871s]       |                                              [01;31m[K^~[m[K
+[1.871s]       |                                              [01;31m[K|[m[K
+[1.871s]       |                                              [01;31m[Kconst boost::arg<1>[m[K
+[2.308s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[2.308s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[2.309s] make: *** [Makefile:141: all] Error 2
+[2.311s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

@@ -1,0 +1,82 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.073s] [35m[1mScanning dependencies of target server[0m
+[0.086s] [  8%] Built target battery_monitoring__rosidl_generator_c
+[0.092s] [ 11%] Built target battery_monitoring__cpp
+[0.170s] [ 17%] Built target client
+[0.181s] [ 25%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.182s] [ 34%] Built target battery_monitoring__rosidl_typesupport_c
+[0.185s] [ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.188s] [ 45%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.191s] [ 54%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.195s] [ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.283s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.307s] [ 71%] Built target battery_monitoring
+[0.333s] [ 74%] Built target battery_monitoring__py
+[0.369s] [ 80%] Built target battery_monitoring__python
+[0.405s] [ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[0.405s] [ 91%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[0.414s] [ 97%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[1.929s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:32[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.930s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.930s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.930s]                  from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[1.930s] /opt/ros/foxy/include/rclcpp/function_traits.hpp: In instantiation of '[01m[Kstruct rclcpp::function_traits::function_traits<boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > > >[m[K':
+[1.930s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:159:8:[m[K   required from '[01m[Kstruct rclcpp::function_traits::same_arguments<boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >[m[K'
+[1.930s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K   required by substitution of '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<battery_monitoring::srv::RobotBatteryStatus>::set<CallbackT, <enumerator> >(CallbackT) [with CallbackT = boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> = <missing>][m[K'
+[1.930s] [01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K   required from '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K'
+[1.931s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K'
+[1.931s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:27:44:[m[K   required from here
+[1.931s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[Kdecltype cannot resolve address of overloaded function
+[1.931s]    51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+[1.931s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.931s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[Kdecltype cannot resolve address of overloaded function
+[1.931s]    57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[1.931s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.931s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[Kdecltype cannot resolve address of overloaded function
+[1.932s]    59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+[1.932s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.932s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.932s]                  from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[1.932s] /opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K':
+[1.933s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K'
+[1.933s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:27:44:[m[K   required from here
+[1.933s] [01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::AnyServiceCallback<battery_monitoring::srv::RobotBatteryStatus>::set(boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >)[m[K'
+[1.933s]    43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+[1.933s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.933s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+[1.933s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.933s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.934s]                  from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[1.935s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = battery_monitoring::srv::RobotBatteryStatus][m[K'
+[1.935s]    67 |   void [01;36m[Kset[m[K(CallbackT callback)
+[1.935s]       |        [01;36m[K^~~[m[K
+[1.935s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.935s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[K'[01m[Kvalue[m[K' is not a member of '[01m[Krclcpp::function_traits::same_arguments<boost::_bi::bind_t<void, void (*)(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >, std::function<void(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >[m[K'
+[1.935s]    65 |     >::type * = [01;31m[Knullptr[m[K
+[1.935s]       |                 [01;31m[K^~~~~~~[m[K
+[1.935s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = battery_monitoring::srv::RobotBatteryStatus][m[K'
+[1.935s]    81 |   void [01;36m[Kset[m[K(CallbackT callback)
+[1.936s]       |        [01;36m[K^~~[m[K
+[1.936s] [01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[2.168s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[2.169s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[2.169s] make: *** [Makefile:141: all] Error 2
+[2.171s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from battery_monitoring/srv/RobotBatteryStatus.srv
+// generated code does not contain a copyright notice
+
+
+module battery_monitoring {
+  module srv {
+    struct RobotBatteryStatus_Request {
+      int64 batterynum;
+    };
+    struct RobotBatteryStatus_Response {
+      double percentage;
+    };
+  };
+};

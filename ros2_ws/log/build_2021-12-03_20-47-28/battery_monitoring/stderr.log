@@ -1,0 +1,26 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:47:[m[K [01;31m[Kerror: [m[Kreference to '[01m[K_1[m[K' is ambiguous
+   30 |           "add_three_ints", boost::bind(&add, [01;31m[K_1[m[K, boost::ref(group))); // CHANGE
+      |                                               [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[Kcandidates are: '[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K'
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:3[m[K:
+[01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K                '[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K'
+   46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+      |                                      [01;36m[K^~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:62:[m[K [01;31m[Kerror: [m[K'[01m[Kgroup[m[K' was not declared in this scope
+   30 |           "add_three_ints", boost::bind(&add, _1, boost::ref([01;31m[Kgroup[m[K))); // CHANGE
+      |                                                              [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

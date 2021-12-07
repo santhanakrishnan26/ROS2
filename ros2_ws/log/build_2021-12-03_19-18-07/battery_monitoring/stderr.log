@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:28:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing element_type = struct battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >[m[K' {aka '[01m[Kstruct battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >[m[K'} has no member named '[01m[Ka[m[K'
+   28 |   request->[01;31m[Ka[m[K = atoll(argv[1]);
+      |            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

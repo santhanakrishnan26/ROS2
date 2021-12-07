@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (-) JobUnselected: {'identifier': 'battery__monitoring'}
+[0.000686] (-) EventReactorShutdown: {}

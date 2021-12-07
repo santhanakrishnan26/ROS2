@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.076s] [35m[1mScanning dependencies of target server[0m
+[0.093s] [  2%] Built target battery_monitoring__cpp
+[0.094s] [ 11%] Built target battery_monitoring__rosidl_generator_c
+[0.099s] [ 14%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.172s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbattery_monitoring/srv/RobotBatteryStatus.hpp: No such file or directory
+[0.173s]     1 | #include [01;31m[K"battery_monitoring/srv/RobotBatteryStatus.hpp"[m[K // CHANGE
+[0.173s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.173s] compilation terminated.
+[0.173s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[0.174s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[0.174s] make[1]: *** Waiting for unfinished jobs....
+[0.186s] [ 22%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.259s] [ 31%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.260s] [ 42%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.260s] [ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.262s] [ 51%] Built target battery_monitoring__rosidl_typesupport_c
+[0.265s] [ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.420s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrv/RobotBatteryStatus.hpp: No such file or directory
+[0.420s]     2 | #include [01;31m[K"srv/RobotBatteryStatus.hpp"[m[K // CHANGE
+[0.420s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.420s] compilation terminated.
+[0.422s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[0.422s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[0.422s] make: *** [Makefile:141: all] Error 2
+[0.424s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

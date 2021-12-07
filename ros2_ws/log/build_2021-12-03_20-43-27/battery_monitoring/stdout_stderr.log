@@ -1,0 +1,65 @@
+[35m[1mScanning dependencies of target server[0m
+[  8%] Built target battery_monitoring__rosidl_generator_c
+[ 11%] Built target battery_monitoring__cpp
+[ 17%] Built target client
+[ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[ 37%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[ 42%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 54%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 71%] Built target battery_monitoring
+[ 74%] Built target battery_monitoring__py
+[ 80%] Built target battery_monitoring__python
+[ 85%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[ 97%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kvoid add(int, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:8:9:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbatterynum[m[K' [[01;35m[K-Wunused-parameter[m[K]
+    8 |     [01;35m[Kint batterynum[m[K,
+      |     [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:23:23:[m[K [01;31m[Kerror: [m[K'[01m[K_a[m[K' was not declared in this scope
+   23 |   auto f1 = bind(add, [01;31m[K_a[m[K);
+      |                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+/opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = void (*)(int, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K':
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from '[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_monitoring::srv::RobotBatteryStatus; CallbackT = void (*)(int, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_monitoring::srv::RobotBatteryStatus> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K'
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:33:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::AnyServiceCallback<battery_monitoring::srv::RobotBatteryStatus>::set(void (*)(int, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >))[m[K'
+   43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = battery_monitoring::srv::RobotBatteryStatus][m[K'
+   67 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[Kno type named '[01m[Ktype[m[K' in '[01m[Kstruct std::enable_if<false, void>[m[K'
+   65 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_monitoring::srv::RobotBatteryStatus_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = battery_monitoring::srv::RobotBatteryStatus][m[K'
+   81 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K [01;31m[Kerror: [m[Kno type named '[01m[Ktype[m[K' in '[01m[Kstruct std::enable_if<false, void>[m[K'
+   79 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

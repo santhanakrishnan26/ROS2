@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (battery__monitoring) JobQueued: {'identifier': 'battery__monitoring', 'dependencies': OrderedDict()}
+[0.000681] (battery__monitoring) JobStarted: {'identifier': 'battery__monitoring'}
+[0.013781] (battery__monitoring) JobProgress: {'identifier': 'battery__monitoring', 'progress': 'cmake'}
+[0.014322] (battery__monitoring) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/battery__monitoring', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/battery__monitoring'], 'cwd': '/home/user/ros2_ws/build/battery__monitoring', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://3_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/battery__monitoring'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring:/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/ros_battery_monitoring/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/ros_battery_monitoring/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', '2265f346-ab81-42b2-8af2-48f64d6ba325'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25724'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/battery__monitoring'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.075810] (battery__monitoring) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099364] (-) TimerEvent: {}
+[0.132866] (battery__monitoring) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.138021] (battery__monitoring) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199527] (-) TimerEvent: {}
+[0.212435] (battery__monitoring) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.213437] (battery__monitoring) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.288962] (battery__monitoring) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299669] (-) TimerEvent: {}
+[0.301498] (battery__monitoring) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.301908] (battery__monitoring) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.304744] (battery__monitoring) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.391592] (battery__monitoring) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.392719] (battery__monitoring) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399799] (-) TimerEvent: {}
+[0.485046] (battery__monitoring) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.498122] (battery__monitoring) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.498658] (battery__monitoring) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.499931] (-) TimerEvent: {}
+[0.504044] (battery__monitoring) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.539986] (battery__monitoring) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.540245] (battery__monitoring) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600113] (-) TimerEvent: {}
+[0.700484] (-) TimerEvent: {}
+[0.800856] (-) TimerEvent: {}
+[0.868427] (battery__monitoring) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.875268] (battery__monitoring) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.890701] (battery__monitoring) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901003] (-) TimerEvent: {}
+[1.001364] (-) TimerEvent: {}
+[1.049303] (battery__monitoring) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.098126] (battery__monitoring) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101493] (-) TimerEvent: {}
+[1.201823] (-) TimerEvent: {}
+[1.233676] (battery__monitoring) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.298712] (battery__monitoring) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.301969] (-) TimerEvent: {}
+[1.402324] (-) TimerEvent: {}
+[1.467394] (battery__monitoring) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.467710] (battery__monitoring) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.467888] (battery__monitoring) StderrLine: {'line': b'  battery__monitoring --arguments-file\n'}
+[1.468056] (battery__monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/battery__monitoring/rosidl_adapter__arguments__battery__monitoring.json\n'}
+[1.468222] (battery__monitoring) StderrLine: {'line': b'  --output-dir\n'}
+[1.468385] (battery__monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/battery__monitoring/rosidl_adapter/battery__monitoring\n'}
+[1.468549] (battery__monitoring) StderrLine: {'line': b'  --output-file\n'}
+[1.468711] (battery__monitoring) StderrLine: {'line': b'  /home/user/ros2_ws/build/battery__monitoring/rosidl_adapter/battery__monitoring.idls)\n'}
+[1.468874] (battery__monitoring) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.469036] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.469196] (battery__monitoring) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.469417] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.469589] (battery__monitoring) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.469751] (battery__monitoring) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.469914] (battery__monitoring) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.470077] (battery__monitoring) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.470238] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.470400] (battery__monitoring) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.470559] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.470720] (battery__monitoring) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.470886] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[1.471044] (battery__monitoring) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[1.471259] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[1.471433] (battery__monitoring) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[1.471601] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[1.471769] (battery__monitoring) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[1.471937] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[1.472106] (battery__monitoring) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.472275] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[1.472451] (battery__monitoring) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.472618] (battery__monitoring) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 200, in __init__\n'}
+[1.472792] (battery__monitoring) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.472959] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.473126] (battery__monitoring) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'battery__monitoring' is an\n"}
+[1.473294] (battery__monitoring) StderrLine: {'line': b'  invalid package name.  It should have the pattern\n'}
+[1.473460] (battery__monitoring) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.473626] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.473794] (battery__monitoring) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.473961] (battery__monitoring) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.474128] (battery__monitoring) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[1.474295] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.474461] (battery__monitoring) StderrLine: {'line': b'\n'}
+[1.474627] (battery__monitoring) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.474818] (battery__monitoring) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/battery__monitoring/CMakeFiles/CMakeOutput.log".\n'}
+[1.477076] (battery__monitoring) CommandEnded: {'returncode': 1}
+[1.502544] (-) TimerEvent: {}
+[1.504722] (battery__monitoring) JobEnded: {'identifier': 'battery__monitoring', 'rc': 1}
+[1.515507] (-) EventReactorShutdown: {}

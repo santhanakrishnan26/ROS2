@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.104s] [35m[1mScanning dependencies of target server[0m
+[0.109s] [  2%] Built target battery_monitoring__cpp
+[0.111s] [ 11%] Built target battery_monitoring__rosidl_generator_c
+[0.130s] [ 17%] Built target client
+[0.212s] [ 25%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.219s] [ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.220s] [ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.225s] [ 51%] Built target battery_monitoring__rosidl_typesupport_c
+[0.233s] [ 54%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.239s] [ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.320s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.359s] [ 71%] Built target battery_monitoring
+[0.392s] [ 74%] Built target battery_monitoring__py
+[0.444s] [ 80%] Built target battery_monitoring__python
+[0.525s] [ 85%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[0.525s] [ 91%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[0.530s] [ 97%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[2.459s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[2.459s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K<[m[K' token
+[2.459s]    28 |                       [01;31m[K<[m[Kbattery_monitoring::srv::RobotBatteryStatus::Request> _1,
+[2.459s]       |                       [01;31m[K^[m[K
+[2.459s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+[2.460s]    28 |                       <battery_monitoring::srv::RobotBatteryStatus::Request[01;31m[K>[m[K _1,
+[2.460s]       |                                                                            [01;31m[K^[m[K
+[2.950s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[2.951s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[2.951s] make: *** [Makefile:141: all] Error 2
+[2.953s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

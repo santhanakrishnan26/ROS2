@@ -1,0 +1,18 @@
+[  5%] Built target client
+[ 14%] Built target battery_monitoring__rosidl_generator_c
+[ 17%] Built target battery_monitoring__cpp
+[ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target server[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   30 |               [01;31m[K)[m[K; // CHANGE
+      |               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

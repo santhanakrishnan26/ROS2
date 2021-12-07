@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.151s] [  5%] Built target client
+[0.195s] [ 14%] Built target battery_monitoring__rosidl_generator_c
+[0.229s] [ 17%] Built target battery_monitoring__cpp
+[0.277s] [ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[0.311s] [ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.368s] [ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.406s] [ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.458s] [ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.503s] [ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.529s] [35m[1mScanning dependencies of target server[0m
+[0.596s] [ 71%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[2.894s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[2.894s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:16:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K;[m[K' token
+[2.894s]    30 |               )[01;31m[K;[m[K // CHANGE
+[2.895s]       |                [01;31m[K^[m[K
+[2.895s]       |                [32m[K)[m[K
+[2.895s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:26:72:[m[K [01;36m[Knote: [m[Kto match this '[01m[K([m[K'
+[2.895s]    26 |       node->create_service<battery_monitoring::srv::RobotBatteryStatus>[01;36m[K([m[K
+[2.895s]       |                                                                        [01;36m[K^[m[K
+[3.504s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[3.504s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[3.504s] make: *** [Makefile:141: all] Error 2
+[3.506s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

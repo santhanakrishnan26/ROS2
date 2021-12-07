@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target server[0m
+[  8%] Built target battery_monitoring__rosidl_generator_c
+[ 11%] Built target battery_monitoring__cpp
+[ 17%] Built target client
+[ 25%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[ 34%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 45%] Built target battery_monitoring__rosidl_typesupport_c
+[ 54%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 62%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 71%] Built target battery_monitoring
+[ 74%] Built target battery_monitoring__py
+[ 80%] Built target battery_monitoring__python
+[ 85%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[ 91%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:27:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kbattery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >::RobotBatteryStatus_Request_(const boost::arg<1>&)[m[K'
+   27 |           "add_three_ints", boost::bind(&add((battery_monitoring::srv::RobotBatteryStatus::Request) [01;31m[K_1[m[K,_2)); // CHANGE
+      |                                                                                                     [01;31m[K^~[m[K
+In file included from [01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:44:12:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kbattery_monitoring::srv::RobotBatteryStatus_Request_<ContainerAllocator>::RobotBatteryStatus_Request_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K'
+   44 |   explicit [01;36m[KRobotBatteryStatus_Request_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:44:67:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::arg<1>[m[K' to '[01m[Kconst std::allocator<void>&[m[K'
+   44 |   explicit RobotBatteryStatus_Request_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/robot_battery_status.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:35:12:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kbattery_monitoring::srv::RobotBatteryStatus_Request_<ContainerAllocator>::RobotBatteryStatus_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K'
+   35 |   explicit [01;36m[KRobotBatteryStatus_Request_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:35:82:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::arg<1>[m[K' to '[01m[Krosidl_runtime_cpp::MessageInitialization[m[K'
+   35 |   explicit RobotBatteryStatus_Request_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kconstexpr battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >::RobotBatteryStatus_Request_(const battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >&)[m[K'
+   31 | struct [01;36m[KRobotBatteryStatus_Request_[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::arg<1>[m[K' to '[01m[Kconst battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >&[m[K'
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kconstexpr battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >::RobotBatteryStatus_Request_(battery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >&&)[m[K'
+[01m[K/home/user/ros2_ws/install/battery_monitoring/include/battery_monitoring/srv/detail/robot_battery_status__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kconst boost::arg<1>[m[K' to '[01m[Kbattery_monitoring::srv::RobotBatteryStatus_Request_<std::allocator<void> >&&[m[K'
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

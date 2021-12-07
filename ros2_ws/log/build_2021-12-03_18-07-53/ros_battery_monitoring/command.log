@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/ros_battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ros_battery_monitoring -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/ros_battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ros_battery_monitoring -- -j8 -l8

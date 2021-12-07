@@ -1,0 +1,10 @@
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:44:[m[K [01;31m[Kerror: [m[K'[01m[Kbattery_monitoring::RobotBatteryStatus[m[K' has not been declared
+   28 |                       (battery_monitoring::[01;31m[KRobotBatteryStatus[m[K::Request &)_1,
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:28:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   28 |                       (battery_monitoring::RobotBatteryStatus::Request &[01;31m[K)[m[K_1,
+      |                                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

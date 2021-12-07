@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.078s] [35m[1mScanning dependencies of target client[0m
+[0.090s] [  2%] Built target battery_monitoring__cpp
+[0.093s] [ 11%] Built target battery_monitoring__rosidl_generator_c
+[0.172s] [ 17%] Built target server
+[0.180s] [ 25%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.189s] [ 34%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.257s] [ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.260s] [ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.265s] [ 60%] Built target battery_monitoring__rosidl_typesupport_c
+[0.271s] [ 62%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.292s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.317s] [ 71%] Built target battery_monitoring
+[0.376s] [ 74%] Built target battery_monitoring__py
+[0.410s] [ 80%] Built target battery_monitoring__python
+[0.473s] [ 85%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[0.474s] [ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[0.476s] [ 97%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[1.751s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:7:1:[m[K [01;31m[Kerror: [m[K'[01m[Kint64[m[K' does not name a type; did you mean '[01m[Krintf64[m[K'?
+[1.751s]     7 | [01;31m[Kint64[m[K battery_num = 0;
+[1.751s]       | [01;31m[K^~~~~[m[K
+[1.751s]       | [32m[Krintf64[m[K
+[1.766s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[1.766s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:21:27:[m[K [01;31m[Kerror: [m[K'[01m[Kbattery_num[m[K' was not declared in this scope
+[1.766s]    21 |     request->batterynum = [01;31m[Kbattery_num[m[K;
+[1.766s]       |                           [01;31m[K^~~~~~~~~~~[m[K
+[2.364s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[2.365s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[2.365s] make: *** [Makefile:141: all] Error 2
+[2.367s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

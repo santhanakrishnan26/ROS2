@@ -1,0 +1,6 @@
+{
+  "package_name": "battery_monitoring",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/battery_monitoring:srv/RobotBatteryStatus.srv"
+  ]
+}

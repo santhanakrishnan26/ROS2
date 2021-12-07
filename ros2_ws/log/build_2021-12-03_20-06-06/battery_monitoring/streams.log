@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[0.073s] [35m[1mScanning dependencies of target client[0m
+[0.093s] [  2%] Built target battery_monitoring__cpp
+[0.094s] [ 11%] Built target battery_monitoring__rosidl_generator_c
+[0.156s] [ 17%] Built target server
+[0.170s] [ 28%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[0.170s] [ 34%] Built target battery_monitoring__rosidl_typesupport_cpp
+[0.183s] [ 42%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[0.244s] [ 51%] Built target battery_monitoring__rosidl_typesupport_c
+[0.250s] [ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[0.250s] [ 62%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.286s] [ 71%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[0.312s] [ 71%] Built target battery_monitoring
+[0.360s] [ 74%] Built target battery_monitoring__py
+[0.400s] [ 80%] Built target battery_monitoring__python
+[0.459s] [ 85%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c__pyext
+[0.465s] [ 91%] Built target battery_monitoring__rosidl_typesupport_c__pyext
+[0.466s] [ 97%] Built target battery_monitoring__rosidl_typesupport_introspection_c__pyext
+[1.764s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[1.765s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/client.cpp:45:24:[m[K [01;31m[Kerror: [m[K'[01m[Kclass rclcpp::Duration[m[K' has no member named '[01m[Ksleep[m[K'
+[1.765s]    45 |   rclcpp::Duration(10).[01;31m[Ksleep[m[K();
+[1.765s]       |                        [01;31m[K^~~~~[m[K
+[2.352s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[2.353s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[2.353s] make: *** [Makefile:141: all] Error 2
+[2.355s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

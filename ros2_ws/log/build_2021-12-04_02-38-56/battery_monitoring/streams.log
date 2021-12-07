@@ -1,0 +1,20 @@
+[0.044s] Invoking command in '/home/user/ros2_ws/build/battery_monitoring': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8
+[1.313s] [  5%] Built target client
+[1.355s] [ 14%] Built target battery_monitoring__rosidl_generator_c
+[1.387s] [ 17%] Built target battery_monitoring__cpp
+[1.443s] [ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[1.486s] [ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[1.731s] [ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[1.770s] [ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[1.831s] [ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[1.878s] [ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[1.904s] [35m[1mScanning dependencies of target server[0m
+[1.972s] [ 71%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[13.077s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[13.077s] [01m[K/home/user/ros2_ws/src/battery_monitoring/src/server.cpp:30:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+[13.078s]    30 |               [01;31m[K)[m[K; // CHANGE
+[13.078s]       |               [01;31m[K^[m[K
+[13.698s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[13.698s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/server.dir/all] Error 2
+[13.699s] make: *** [Makefile:141: all] Error 2
+[13.704s] Invoked command in '/home/user/ros2_ws/build/battery_monitoring' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/battery_monitoring -- -j8 -l8

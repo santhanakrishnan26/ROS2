@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:43 (find_package):
+  By not providing "Findtbattery_monitoring.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "tbattery_monitoring", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "tbattery_monitoring" with any of the following names:
+
+    tbattery_monitoringConfig.cmake
+    tbattery_monitoring-config.cmake
+
+  Add the installation prefix of "tbattery_monitoring" to CMAKE_PREFIX_PATH
+  or set "tbattery_monitoring_DIR" to a directory containing one of the above
+  files.  If "tbattery_monitoring" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+make: *** [Makefile:748: cmake_check_build_system] Error 1

@@ -1,0 +1,11 @@
+[  5%] Built target client
+[ 14%] Built target battery_monitoring__rosidl_generator_c
+[ 17%] Built target battery_monitoring__cpp
+[ 25%] Built target battery_monitoring__rosidl_typesupport_c
+[ 34%] Built target battery_monitoring__rosidl_typesupport_introspection_cpp
+[ 42%] Built target battery_monitoring__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target battery_monitoring__rosidl_typesupport_cpp
+[ 60%] Built target battery_monitoring__rosidl_typesupport_fastrtps_c
+[ 68%] Built target battery_monitoring__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target server[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m

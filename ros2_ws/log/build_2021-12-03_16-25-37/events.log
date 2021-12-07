@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000727] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.030056] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.031249] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.032423] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://3_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/cpp_srvcli'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/my_service_server:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/cpp_srvcli:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/my_service_server:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '490746'), ('SLOT_PREFIX', '865a9080-5559-4aa7-a483-79d8b7c8f7a5'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25724'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/cpp_srvcli/srv'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099439] (-) TimerEvent: {}
+[0.200027] (-) TimerEvent: {}
+[0.203454] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.250283] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300178] (-) TimerEvent: {}
+[0.400772] (-) TimerEvent: {}
+[0.501279] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.699436] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.701881] (-) TimerEvent: {}
+[0.802254] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802623] (-) TimerEvent: {}
+[0.812505] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.902948] (-) TimerEvent: {}
+[1.003431] (-) TimerEvent: {}
+[1.103947] (-) TimerEvent: {}
+[1.160259] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204125] (-) TimerEvent: {}
+[1.304626] (-) TimerEvent: {}
+[1.306720] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.312021] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.404800] (-) TimerEvent: {}
+[1.505549] (-) TimerEvent: {}
+[1.606139] (-) TimerEvent: {}
+[1.622196] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[1.706309] (-) TimerEvent: {}
+[1.806808] (-) TimerEvent: {}
+[1.906448] (cpp_srvcli) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.906811] (-) TimerEvent: {}
+[2.007434] (-) TimerEvent: {}
+[2.107904] (-) TimerEvent: {}
+[2.208254] (-) TimerEvent: {}
+[2.308725] (-) TimerEvent: {}
+[2.409099] (-) TimerEvent: {}
+[2.509620] (-) TimerEvent: {}
+[2.610107] (-) TimerEvent: {}
+[2.710536] (-) TimerEvent: {}
+[2.810997] (-) TimerEvent: {}
+[2.911483] (-) TimerEvent: {}
+[3.011986] (-) TimerEvent: {}
+[3.112426] (-) TimerEvent: {}
+[3.163097] (cpp_srvcli) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[3.163488] (cpp_srvcli) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[3.163731] (cpp_srvcli) StderrLine: {'line': b'  cpp_srvcli --arguments-file\n'}
+[3.163934] (cpp_srvcli) StderrLine: {'line': b'  /home/user/ros2_ws/build/cpp_srvcli/rosidl_adapter__arguments__cpp_srvcli.json\n'}
+[3.164137] (cpp_srvcli) StderrLine: {'line': b'  --output-dir /home/user/ros2_ws/build/cpp_srvcli/rosidl_adapter/cpp_srvcli\n'}
+[3.164327] (cpp_srvcli) StderrLine: {'line': b'  --output-file\n'}
+[3.164444] (cpp_srvcli) StderrLine: {'line': b'  /home/user/ros2_ws/build/cpp_srvcli/rosidl_adapter/cpp_srvcli.idls)\n'}
+[3.164588] (cpp_srvcli) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.164802] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.164939] (cpp_srvcli) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.165084] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.165256] (cpp_srvcli) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[3.165446] (cpp_srvcli) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[3.165593] (cpp_srvcli) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[3.165767] (cpp_srvcli) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[3.165915] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.166079] (cpp_srvcli) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.166263] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.166482] (cpp_srvcli) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.166661] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[3.166920] (cpp_srvcli) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[3.167100] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[3.167271] (cpp_srvcli) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[3.167409] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[3.167610] (cpp_srvcli) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[3.167770] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[3.167947] (cpp_srvcli) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[3.168137] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[3.168318] (cpp_srvcli) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[3.168487] (cpp_srvcli) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[3.168688] (cpp_srvcli) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[3.168864] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.169018] (cpp_srvcli) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'battery_monitoring_Request' is\n"}
+[3.169200] (cpp_srvcli) StderrLine: {'line': b"  an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[3.169352] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.169515] (cpp_srvcli) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.169720] (cpp_srvcli) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.169908] (cpp_srvcli) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[3.170089] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.170423] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[3.170619] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.170815] (cpp_srvcli) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".\n'}
+[3.171026] (cpp_srvcli) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".\n'}
+[3.184075] (cpp_srvcli) StderrLine: {'line': b'make: *** [Makefile:222: cmake_check_build_system] Error 1\n'}
+[3.186559] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[3.213157] (-) TimerEvent: {}
+[3.267593] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[3.278883] (-) EventReactorShutdown: {}
